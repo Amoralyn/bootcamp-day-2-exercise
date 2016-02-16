@@ -5,7 +5,7 @@ letters = name.upcase!.split("")
 # 	puts "#{counter}  #{letter}" 
 # 	counter += 1
 # end
-while counter < letters.length - 1 do
+while counter < letters.length do
 	puts "#{counter + 1} #{letters[counter]}"
 	counter += 1
 end
