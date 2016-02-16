@@ -1,3 +1,3 @@
 name = "ikechukwuyeremefuna"
-letters = name.split("")
+letters = name.upcase!.split("")
 letters.each {|letter| puts"#{letter}"}
